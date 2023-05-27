@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Customer Survey</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="welcome-screen">
+      <h1>Welcome to our Shop</h1>
+      <button id="start-btn">Start</button>
+    </div>
+    <div id="survey-screen" style="display: none;">
+      <h2 id="question-number"></h2>
+      <h3 id="question-text"></h3>
+      <div id="rating-container" style="display: none;">
+        <input type="radio" name="rating" value="1">1
+        <input type="radio" name="rating" value="2">2
+        <input type="radio" name="rating" value="3">3
+        <input type="radio" name="rating" value="4">4
+        <input type="radio" name="rating" value="5">5
+        <input type="radio" name="rating" value="6">6
+        <input type="radio" name="rating" value="7">7
+        <input type="radio" name="rating" value="8">8
+        <input type="radio" name="rating" value="9">9
+        <input type="radio" name="rating" value="10">10
+      </div>
+      <textarea id="text-answer" style="display: none;"></textarea>
+      <button id="prev-btn" style="display: none;">Previous</button>
+      <button id="next-btn">Next</button>
+      <button id="skip-btn">Skip</button>
+    </div>
+    <div id="completion-screen" style="display: none;">
+      <h2>Thank you for taking the survey!</h2>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

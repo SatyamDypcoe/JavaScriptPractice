@@ -1,0 +1,32 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.h1, .h2, .h3 {
+  margin: 0;
+}
+
+#survey-screen {
+  text-align: center;
+}
+
+#rating-container {
+  margin: 20px 0;
+}
+
+#text-answer {
+  width: 100%;
+  height: 100px;
+  resize: none;
+}
+
+#prev-btn, #next-btn, #skip-btn {
+  margin: 10px;
+}
+
+#completion-screen {
+  text-align: center;
+}
+
