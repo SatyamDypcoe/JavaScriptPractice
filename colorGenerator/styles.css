@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    transition-duration: 1s;
 }
 .main{
     display: flex;
@@ -15,12 +15,20 @@ body{
 }
 .container{
     width: 30rem;
-    height: 15rem;
     background-color: white;
     padding: 10px;
     border-radius: 10px;
     font-size: 40px;
+    text-align: center;
 }
 button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: block;
     font-size: 30px;
+    cursor: pointer;
+
 }
